@@ -1,0 +1,1 @@
+Hello world! If you can see/read this file, ansible has successfully copied this file to your defined machine!

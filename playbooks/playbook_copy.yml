@@ -1,0 +1,20 @@
+- hosts: 192.168.0.1
+  user: root
+  become: yes
+
+  tasks:
+    - name: "Make sure new directory exists"
+      file:
+        path: /home/sa/ansible-example
+        owner: root
+        group: root
+        mode: 0644
+        state: directory
+
+    - name: "Copy hello-world.txt file"
+      copy:
+        src: hello-world.txt
+        dest: /home/sa/ansible-example/hello-world.txt
+        owner: root
+        group: root
+        mode: 0644
