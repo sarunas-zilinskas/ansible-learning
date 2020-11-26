@@ -33,4 +33,4 @@ Install sshpass with: `sudo apt install sshpass`
 `-v` parameter defines the verbosity level. Max level is `-vvvv` which stands for `very very very verbose`. Most of the times you would want `-vv` or in case you are really deep into some crap then use `-vvv`.
 ### Who do I talk to? ###
 
-* Šarūnas Žilinskas, DevOps engineer: sarunas@zenitech.co.uk
+* Šarūnas Žilinskas, DevOps engineer: sar.zilinskas@gmail.com
